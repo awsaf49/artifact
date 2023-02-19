@@ -26,7 +26,7 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 # Citation
 
 # License
-ArtiFact dataset take leverage of data from multiple methods thus different parts of the dataset come with different licenses. All the methods and their associated license are mentioned in the table,
+ArtiFact dataset take leverage of data from multiple methods thus different parts of the dataset come with different licenses. All the methods and their associated licenses are mentioned in the table,
 
 <details close>
 <summary>Data License</summary>
@@ -73,7 +73,7 @@ ArtiFact dataset take leverage of data from multiple methods thus different part
 
 * The authors would like to express their gratitude to the IEEE Signal Processing Society, GRIP of the University Federico II of Naples (Italy), and NVIDIA (USA) for hosting the [IEEE Video and Image Processing (VIP) Cup](https://grip-unina.github.io/vipcup2022/) competition at ICIP 2022. This competition provided a platform for the authors to showcase their work and motivated them to push their boundaries to deliver a state-of-the-art solution.
 
-* The authors also would like to express their gratitude towards the authors of the methods that is used for creating ArtiFact dataset. All the methods and their reference is added below,
+* The authors also would like to express their gratitude to the authors of the methods that is used for creating ArtiFact dataset. All the methods and their reference is added below,
     <details close>
     <summary>Data Reference</summary>
 

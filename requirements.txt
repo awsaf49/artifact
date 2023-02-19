@@ -1,0 +1,5 @@
+pillow=9.0.1
+jpeg=9e
+tqdm=4.63.0
+joblib
+pandas

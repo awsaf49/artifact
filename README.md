@@ -21,11 +21,25 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 
 ## Download Dataset
 
+The dataset is hosted on Kaggle. The dataset can be downloaded directly from the browser using link below or can be downloaded using [kaggle-api](https://github.com/Kaggle/kaggle-api) using following method.
+
+Link: [ArtiFact]()
+
 ## Data Generation
+
+All images went through RandomCrop and Random Impairments (Jpeg Compression & Downscale). To apply these transformation use [data/transform.py](data/trainsform.py) which script applies random transformation. All images are cropped and resized to $200 \times 200$ pixels and then compressed using JPEG at a random quality level.
+
+### Usage
+
+```shell
+python data/transform.py <input directory> <output directory> <seed>
+```
 
 # Citation
 
+
 # License
+
 ArtiFact dataset take leverage of data from multiple methods thus different parts of the dataset come with different licenses. All the methods and their associated licenses are mentioned in the table,
 
 <details close>

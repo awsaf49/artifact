@@ -15,7 +15,7 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 
 > **Note:** The Test data is kept confidential from all participating teams. Additionally, the generators used for the Test 1 data are known to all teams, whereas the generators for Test 2 and Test 3 are kept undisclosed.
 
-# ArtiFact: Artificial and Factual Dataset
+# ArtiFact: Artificial and Factual Image Dataset
 
 <img src="images/header.png">
 

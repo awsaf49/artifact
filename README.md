@@ -23,7 +23,7 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 
 The dataset is hosted on Kaggle. The dataset can be downloaded directly from the browser using link below or can be downloaded using [kaggle-api](https://github.com/Kaggle/kaggle-api) using following method.
 
-Link: [ArtiFact]()
+Link: [ArtiFact](https://www.kaggle.com/datasets/awsaf49/artifact-dataset)
 
 ## Data Generation
 

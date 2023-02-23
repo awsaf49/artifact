@@ -1,10 +1,12 @@
-# Robust Synthetic Image Detection with Multi-class Scheme and Filter Stride Reduction
+# ArtiFact: A Large-Scale Dataset with Artificial and Factual Images for Generalizable and Robust Synthetic Image Detection
 
-Paper:
+<img src="images/header.png">
 
-Abstract:
+**Paper:** [Soon]()
 
-## Result on IEEE VIP Cup at ICIP 2022
+**Abstract:** Synthetic image generation has opened up new  opportunities but has also created threats in regard to privacy, authenticity, and security. Detecting fake images is of paramount importance to prevent illegal activities, and previous research has shown that generative models leave unique patterns in their synthetic images that can be exploited to detect them. However, the fundamental problem of generalization remains, as even state-of-the-art detectors encounter difficulty when facing generators never seen during training. To assess the generalizability and robustness of synthetic image detectors in the face of real-world impairments, this paper presents a large-scale dataset named ArtiFact, comprising diverse generators, object categories, and real-world challenges. Moreover, the proposed multi-class classification scheme, combined with a filter stride reduction strategy addresses social platform impairments and effectively detects synthetic images from both seen and unseen generators. The proposed solution outperforms other teams by 8.34% on Test 1, 1.26% on Test 2, and 15.08% on Test 3 in the IEEE VIP CUP at ICIP 2022.
+
+# Result on IEEE VIP Cup at ICIP 2022
 
 Accuracy (%) of Top3 Teams on Leaderboard,
 | Team Names            | Test 1     | Test 2     | Test 3     |
@@ -13,19 +15,16 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 | FAU Erlangen-Nürnberg | 87\.14     | 81\.74     | 75\.52     |
 | **Megatron (Ours)**   | **96\.04** | **83\.00** | **90\.60** |
 
-> **Note:** The Test data is kept confidential from all participating teams. Additionally, the generators used for the Test 1 data are known to all teams, whereas the generators for Test 2 and Test 3 are kept undisclosed.
+> **Note:** A small portion of the proposed ArtiFact dataset, totaling 222K images of 71K real images and 151K fake images from only 13 generators is used in the IEEE VIP Cup. Here all the Test data is kept confidential from all participating teams. Additionally, the generators used for the Test 1 data are known to all teams, whereas the generators for Test 2 and Test 3 are kept undisclosed.
 
-# ArtiFact: Artificial and Factual Image Dataset
 
-<img src="images/header.png">
-
-## Download Dataset
+# Download Dataset
 
 The dataset is hosted on Kaggle. The dataset can be downloaded directly from the browser using link below or can be downloaded using [kaggle-api](https://github.com/Kaggle/kaggle-api) using following method.
 
-Link: [ArtiFact](https://www.kaggle.com/datasets/awsaf49/artifact-dataset)
+Link: [ArtiFact Dataset](https://www.kaggle.com/datasets/awsaf49/artifact-dataset)
 
-## Data Generation
+# Data Generation
 
 * Images are randomly sampled from different methods then transformed using impairments. The methods are listed below,
     <details close>

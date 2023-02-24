@@ -24,8 +24,6 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 * Number of generators used for fake images: 25 (including 13 GANs, 7 Diffusion, and 5 miscellaneous generators)
 * Number of sources used for real images: 8
 * Categories included in the dataset: Human/Human Faces, Animal/Animal Faces, Places, Vehicles, Art, and other real-life objects
-* Number of real images per category: Varies depending on the source dataset used
-* Number of fake images per category: Varies depending on the generator used
 * Image Resolution: 200 x 200
 
 # Download Dataset

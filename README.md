@@ -66,7 +66,7 @@ Link: [ArtiFact Dataset](https://www.kaggle.com/datasets/awsaf49/artifact-datase
 
 # License
 
-ArtiFact dataset take leverage of data from multiple methods thus different parts of the dataset come with different licenses. All the methods and their associated licenses are mentioned in the table,
+ArtiFact dataset takes leverage of data from multiple methods thus different parts of the dataset come with different licenses. All the methods and their associated licenses are mentioned in the table,
 
 <details close>
 <summary>Data License</summary>

@@ -17,6 +17,16 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 
 > **Note:** A small portion of the proposed ArtiFact dataset, totaling 222K images of 71K real images and 151K fake images from only 13 generators is used in the IEEE VIP Cup. Here all the Test data is kept confidential from all participating teams. Additionally, the generators used for the Test 1 data are known to all teams, whereas the generators for Test 2 and Test 3 are kept undisclosed.
 
+# Dataset Description
+* Total number of images: 2,496,738
+* Number of real images: 964,989
+* Number of fake images: 1,531,749
+* Number of generators used for fake images: 25 (including 13 GANs, 7 Diffusion, and 5 miscellaneous generators)
+* Number of sources used for real images: 8
+* Categories included in the dataset: Human/Human Faces, Animal/Animal Faces, Places, Vehicles, Art, and other real-life objects
+* Number of real images per category: Varies depending on the source dataset used
+* Number of fake images per category: Varies depending on the generator used
+* Image Resolution: 200 x 200
 
 # Download Dataset
 

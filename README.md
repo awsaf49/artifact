@@ -28,8 +28,14 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 
 # Download Dataset
 
-The dataset is hosted on Kaggle. The dataset can be downloaded directly from the browser using link below or can be downloaded using [kaggle-api](https://github.com/Kaggle/kaggle-api).
+The dataset is hosted on Kaggle. The dataset can be downloaded i) directly from the browser using link below or ii) can be downloaded using [kaggle-api](https://github.com/Kaggle/kaggle-api).
 
+## Kaggle API
+```shell
+!kaggle datasets download -d awsaf49/artifact-dataset
+```
+
+## Directly from Browser
 Link: [ArtiFact Dataset](https://www.kaggle.com/datasets/awsaf49/artifact-dataset)
 
 # Data Generation
@@ -46,9 +52,9 @@ Link: [ArtiFact Dataset](https://www.kaggle.com/datasets/awsaf49/artifact-datase
 
 * All images went through RandomCrop and Random Impairments (Jpeg Compression & Downscale). To apply these transformation use [data/transform.py](data/transform.py) which applies random transformation. All images are cropped and resized to $200 \times 200$ pixels and then compressed using JPEG at a random quality level.
 
-    ```shell
-    python data/transform.py <input directory> <output directory> <seed>
-    ```
+```shell
+!python data/transform.py <input directory> <output directory> <seed>
+```
 
 # Citation
 ```bibtex

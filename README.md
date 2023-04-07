@@ -92,6 +92,7 @@ ArtiFact dataset takes leverage of data from multiple methods thus different par
 <details close>
 <summary>Data License</summary>
 
+
 | Method                  | License                                                                                |
 |:------------------------|:---------------------------------------------------------------------------------------|
 | ImageNet                | Non Commercial                                                                         |
@@ -127,6 +128,7 @@ ArtiFact dataset takes leverage of data from multiple methods thus different par
 | GauGAN                  | Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License |
 | ProGAN                  | Attribution-NonCommercial 4.0 International                                            |
 | CycleGAN                | BSD                                                                                    |
+
 
 </details>
 

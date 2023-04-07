@@ -6,6 +6,10 @@
 
 **Abstract:** Synthetic image generation has opened up new  opportunities but has also created threats in regard to privacy, authenticity, and security. Detecting fake images is of paramount importance to prevent illegal activities, and previous research has shown that generative models leave unique patterns in their synthetic images that can be exploited to detect them. However, the fundamental problem of generalization remains, as even state-of-the-art detectors encounter difficulty when facing generators never seen during training. To assess the generalizability and robustness of synthetic image detectors in the face of real-world impairments, this paper presents a large-scale dataset named ArtiFact, comprising diverse generators, object categories, and real-world challenges. Moreover, the proposed multi-class classification scheme, combined with a filter stride reduction strategy addresses social platform impairments and effectively detects synthetic images from both seen and unseen generators. The proposed solution significantly outperforms other top teams by 8.34% on Test 1, 1.26% on Test 2, and 15.08% on Test 3 in the IEEE VIP Cup challenge at ICIP 2022, as measured by the accuracy metric.
 
+**Visual Summary**:
+
+<div align="center"> <img src="images\visual_summary2.jpg" width="700"> </div>
+
 # Result on [IEEE VIP Cup at ICIP 2022](https://grip-unina.github.io/vipcup2022/)
 
 Accuracy (%) of Top3 Teams on Leaderboard,
@@ -25,6 +29,16 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 * Number of sources used for real images: $8$
 * Categories included in the dataset: `Human/Human Faces`, `Animal/Animal Faces`, `Places`, `Vehicles`, `Art`, and other real-life objects
 * Image Resolution: $200 \times 200$
+
+## Data Distribution
+
+* Real 
+
+<div align="center"> <img src="images\artifact-real-v4.png" width="700"> </div>
+
+* Fake
+
+<div align="center"> <img src="images\artifact-fake-v4.png" width="800"> </div>
 
 # Download Dataset
 

@@ -53,6 +53,14 @@ The dataset is hosted on Kaggle. The dataset can be downloaded i) directly from 
 ## Directly from Browser
 Link: [ArtiFact Dataset](https://www.kaggle.com/datasets/awsaf49/artifact-dataset)
 
+# How to Use
+The dataset is organized into folders, each of which corresponds to a specific generator of synthetic images or source of real images. Each folder contains a `metadata.csv` file, which provides information about the images in the folder. It contains following columns,
+
+* `image_path` : The relative path of the image file.
+* `target` : The label for the image, which is either 0 for real or 1 for fake.
+* `category` : The category (cat or dog etc) of the image
+
+
 # Data Generation
 
 * Images are randomly sampled from different methods then transformed using impairments. The methods are listed below,

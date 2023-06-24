@@ -10,6 +10,9 @@
 
 <div align="center"> <img src="images\visual_summary2.jpg" width="700"> </div>
 
+# Update
+* [22 June 2023] - The work has been accepted to IEEE ICIP 2023 conference for oral presentation.
+
 # Result on [IEEE VIP Cup at ICIP 2022](https://grip-unina.github.io/vipcup2022/)
 
 Accuracy (%) of Top3 Teams on Leaderboard,

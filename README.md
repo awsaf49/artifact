@@ -1,4 +1,4 @@
-# ArtiFact: A Large-Scale Dataset with Artificial and Factual Images for Generalizable and Robust Synthetic Image Detection
+# ArtiFact: A Large-Scale Dataset with Artificial and Factual Images for Generalizable and Robust Synthetic Image Detection [ICIP 2023]
 
 <img src="images/header.png">
 

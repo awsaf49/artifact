@@ -46,15 +46,16 @@ Accuracy (%) of Top3 Teams on Leaderboard,
 
 # Download Dataset
 
-The dataset is hosted on Kaggle. The dataset can be downloaded i) directly from the browser using link below or ii) can be downloaded using [kaggle-api](https://github.com/Kaggle/kaggle-api).
+The dataset is hosted on Kaggle. The dataset can be downloaded i) directly from the browser using the link below or ii) can be downloaded using [kaggle-api](https://github.com/Kaggle/kaggle-api).
 
-## Kaggle API
+## i) Directly from Browser
+Link: [ArtiFact Dataset](https://www.kaggle.com/datasets/awsaf49/artifact-dataset)
+
+
+## ii) Kaggle API
 ```shell
 !kaggle datasets download -d awsaf49/artifact-dataset
 ```
-
-## Directly from Browser
-Link: [ArtiFact Dataset](https://www.kaggle.com/datasets/awsaf49/artifact-dataset)
 
 # How to Use
 The dataset is organized into folders, each of which corresponds to a specific generator of synthetic images or source of real images. Each folder contains a `metadata.csv` file, which provides information about the images in the folder. It contains following columns,

@@ -92,14 +92,15 @@ The dataset is organized into folders, each of which corresponds to a specific g
 
 # Citation
 ```bibtex
-@misc{rahman2023artifact,
-      title={ArtiFact: A Large-Scale Dataset with Artificial and Factual Images for Generalizable and Robust Synthetic Image Detection}, 
-      author={Md Awsafur Rahman and Bishmoy Paul and Najibul Haque Sarker and Zaber Ibn Abdul Hakim and Shaikh Anowarul Fattah},
-      year={2023},
-      eprint={2302.11970},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+@INPROCEEDINGS{artifact,
+  author={Rahman, Md Awsafur and Paul, Bishmoy and Sarker, Najibul Haque and Hakim, Zaber Ibn Abdul and Fattah, Shaikh Anowarul},
+  booktitle={2023 IEEE International Conference on Image Processing (ICIP)}, 
+  title={Artifact: A Large-Scale Dataset With Artificial And Factual Images For Generalizable And Robust Synthetic Image Detection}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={2200-2204},
+  doi={10.1109/ICIP49359.2023.10222083}}
 ```
 
 # License

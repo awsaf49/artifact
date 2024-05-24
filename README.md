@@ -84,7 +84,7 @@ The dataset is organized into folders, each of which corresponds to a specific g
     
     </details>
 
-* All images went through RandomCrop and Random Impairments (Jpeg Compression & Downscale). To apply these transformation use [data/transform.py](data/transform.py) which applies random transformation. All images are cropped and resized to $200 \times 200$ pixels and then compressed using JPEG at a random quality level.
+* All images went through RandomCrop and Random Impairments (Jpeg Compression & Downscale). To apply these transformation use [data/transform.py](./data/transform.py) which applies random transformation. All images are cropped and resized to $200 \times 200$ pixels and then compressed using JPEG at a random quality level.
 
 ```shell
 !python data/transform.py <input directory> <output directory> <seed>
